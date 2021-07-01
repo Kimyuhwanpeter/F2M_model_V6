@@ -9,8 +9,7 @@ Maxpool2D = tf.keras.layers.MaxPool2D
 ZeroPadd2D = tf.keras.layers.ZeroPadding2D
 ReLU = tf.keras.layers.ReLU
 LeakReLU = tf.keras.layers.LeakyReLU
-# https://openaccess.thecvf.com/content_CVPR_2019/papers/Yao_Attention-Aware_Multi-Stroke_Style_Transfer_CVPR_2019_paper.pdf
-# https://github.com/JianqiangRen/AAMS/blob/master/net/aams.py
+
 class InstanceNormalization(tf.keras.layers.Layer):
   #"""Instance Normalization Layer (https://arxiv.org/abs/1607.08022)."""
 
